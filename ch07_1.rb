@@ -23,10 +23,10 @@
 
 bottles = 99
 while bottles > 1 do
-	puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer."
-	puts "Take one down and pass it around, #{bottles - 1} bottles of beer on the wall."
-	puts
-	bottles -= 1
+  puts "#{bottles} bottles of beer on the wall, #{bottles} bottles of beer."
+  puts "Take one down and pass it around, #{bottles - 1} bottles of beer on the wall."
+  puts
+  bottles -= 1
 end
 
 puts "1 bottle of beer on the wall, 1 bottle of beer."

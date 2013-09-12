@@ -18,5 +18,5 @@ lines.push "Chapter 2: Numbers".ljust(left_length) + "page  9".rjust(right_lengt
 lines.push "Chapter 3: Letters".ljust(left_length) + "page 13".rjust(right_length)
 
 lines.each do |line|
-	puts line
+  puts line
 end 
